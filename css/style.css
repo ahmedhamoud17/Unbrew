@@ -1,0 +1,123 @@
+body {
+    background-color: white;
+}
+#landing,
+#management {
+    background: linear-gradient(45deg, #4c32e0 0%, #a87ffa 100%);
+}
+.ahmed {
+    color: rgba(255, 255, 255, 0.5);
+}
+.ahmed:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+.hamoud {
+    font-size: 70px;
+}
+
+.social a i:hover{
+    cursor: pointer;
+    transition: 0.9s;
+    transform: scale(1.4);
+}
+.hooda{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.btn-outline-info:hover{
+    color: white;
+}
+.item{
+    background-color: #fafafa;
+}
+.item:hover{
+    cursor: pointer;
+    background-color: #67cfff;
+}
+.item i{
+    color: #67cfff;
+}
+.item h5{
+    color: #67cfff;
+}
+.item p{
+    color: #2c2c2c;
+    font-size: 15px;
+}
+.item:hover > i,
+.item:hover > h5,
+.item:hover  p,
+#management .item:hover p
+{
+    color: white;
+}
+#count .container .row{
+    background-color: #fafafa;
+}
+#testimonial{
+    background-color: #F9FAFF;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-indent: 0;
+    background-color: #25b2f3;
+}
+#management .item p{
+    color: #6b6b6b;
+    font-size: 15px;
+}
+#newsletter .news button:hover{
+    color: #0DCAF0;
+}
+@media (min-width : 0px) and (max-width:768px) {
+    .hamoud {
+        font-size: 50px;
+    }
+    .navbar-collapse {
+        background-color: #654bf3;
+    }
+
+    .sora img{
+        display: none;
+    }
+    .info p{
+        font-size: 15px;
+    }
+    .btn1,
+    .btn2{
+        font-size: 14px;
+    }
+    .btn-outline-light{
+        margin-bottom: 5px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width : 769px) and (max-width:950px) {
+    .hamoud {
+        font-size: 60px;
+    }
+    .navbar-collapse {
+        background-color: #654bf3;
+    }
+    .info p{
+        font-size: 18px;
+    }
+    .btn1,
+    .btn2{
+        font-size: 14px;
+    }
+    .hooda{
+        position: absolute;
+        left: 20%;
+    }
+
+}
